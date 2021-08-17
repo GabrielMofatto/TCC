@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Game tamagotchi</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+  <div id="fundo">
+    <div id="bloco">
+      <div id="blocoImagem">
+        <img src="img/fullsaude.png" class="pet" id="pet" alt="imagem">
+      </div>
+      <div class="lado">
+        <h2><strong>Status</strong></h2>
+        Fome:<div id="fome" class="barra"> 100%</div>
+        Sono:<div id="sono" class="barra"> 100%</div>
+        Diversão:<div id="diversao" class="barra"> 100%</div>
+      </div>
+      <div>
+        <p><button class="botao" onclick="Comer()"><img src="img/pao.png"></button></p>
+        <p><span class="botao" onclick="Dormir()">Dormir</span></p>
+        <p><span class="botao" onclick="Brincar()">Brincar</span></p>
+      </div>
+      <h3>
+        <div id="mensagem"></div>
+      </h3>
+    </div>
+  </div>
+  <script src="Hatsune Miku v1.js"></script>
+</body>
+
+</html>

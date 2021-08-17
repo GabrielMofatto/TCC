@@ -1,0 +1,51 @@
+body{
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center center center;
+  background-attachment: fixed;
+}
+.pet{
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  margin: 100px;
+}
+.bloco{
+  width: 400px;
+}
+.botao{
+  margin: 100px;
+  padding: 0px 0px;
+  background-color: transparent;
+  border-style: none;
+}
+.botao:active{
+  box-shadow: 20px;
+  border-style: none;
+  background-image: url("img/pao2.png");
+}
+.barra{
+  width: 100px;
+  background: #99cc00;
+  margin: 5px 10px;
+  border-radius:4px;
+  padding: 3px 3px;
+}
+.lado{
+  float:left;
+  margin: 10px 25px;
+  width: 120px;
+}
+#blocoBotao{
+  padding: 115px 0px;
+}
+#blocoImagem{
+  padding: 0px 0px;
+  position: relative;
+  left:200px;
+  top: 100px;
+}
+#mensagem{
+  color: red;
+}

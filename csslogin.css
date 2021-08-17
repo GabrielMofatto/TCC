@@ -1,0 +1,47 @@
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center center center;
+    background-attachment: fixed;
+  }
+
+#login{
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    position: relative;
+    padding: 20px;
+    height: 450px;
+    width: 18%;
+    top: 240px;
+    left: 70%;
+    text-align: center;
+}
+#escrito{
+    position: absolute;
+    left: 3%;
+    font-size: 30px;
+}
+input{
+    box-shadow: 5px 5px 5px 1px rgb(187, 187, 187);
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    border-style: none;
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    outline: none;
+}
+input:active{
+    border-style: none;
+}
+button{
+    background-color: rgb(191, 178, 207);
+    height: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border-style: none;
+}
+button:active{
+    box-shadow: 1px 1px 1px 1px rgb(204, 202, 202);
+}
